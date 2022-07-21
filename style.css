@@ -1,0 +1,147 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+
+}
+
+.container {
+
+    text-align: center;
+}
+
+
+
+.table {
+    margin: -18px;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 22px;
+    border-radius: 2rem;
+    background-color: rgb(211, 217, 230);
+}
+
+input {
+    border: 5px solid rgb(65, 90, 16);
+    font-size: 31px;
+    height: 69px;
+    width: 367px;
+    border-radius: 1rem;
+    margin: 12px;
+}
+
+button {
+    border-radius: 1rem;
+    font-size: 31px;
+    width: 77px;
+    height: 57px;
+    opacity: 0.9;
+    transition: 0.3s;
+
+
+}
+
+span {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+
+
+}
+
+.red {
+    opacity: 1.0;
+    background: rgba(245, 1, 1, 0.779);
+}
+
+.back {
+    opacity: 1.0;
+    background: rgba(230, 237, 137, 0.779);
+
+}
+
+.symbol {
+    background: rgb(32, 215, 172);
+}
+
+#equal {
+    background: rgb(90, 90, 223);
+}
+
+.calci {
+    padding: 0px;
+    margin: 6px;
+}
+
+
+
+
+
+.button:active {
+
+    box-shadow: 0 5px rgb(119, 66, 66);
+    transform: translateY(4px);
+}
+
+
+
+
+.row {
+    padding: 4px;
+    margin: 9px;
+}
+
+
+
+.up {
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+
+    font-size: 39px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right, #bb8638 10%, #ae0a31 50%, #44e749 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display: inline-block;
+
+}
+
+hr {
+
+    height: 7px;
+    background-color: rgb(55, 255, 162);
+
+    /* border:none; */
+
+
+}
