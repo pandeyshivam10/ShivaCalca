@@ -81,7 +81,7 @@ span {
 }
 
 .symbol {
-    background: rgb(32, 215, 172);
+    background: rgb(16 178 212);
 }
 
 #equal {
@@ -114,8 +114,8 @@ span {
 
 
 .up {
-    padding: 15px;
-    margin: 15px;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
 
     font-size: 39px;
@@ -139,7 +139,7 @@ span {
 hr {
 
     height: 7px;
-    background-color: rgb(55, 255, 162);
+    background-color: rgb(212 212 212);
 
     /* border:none; */
 
